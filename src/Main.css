@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(21, 21, 41);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button{
+    background-color: rgb(184, 192, 192);
+    color: black;
+    font-size: 1rem;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 2rem;
+    border-radius: 35px;
+    border-width: 2px;
+    border-color: white;
+}
+
+.card{
+    background-color: #fff;
+    box-shadow: 0px 8px 20px rgba(251, 251, 253, 0.3);
+    border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    margin-top: 2rem;
+    width: 30rem;
+    height: 20rem;
+    justify-content: space-between;
+}
+
+.cardInfo h6{
+    display: flex;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.loader{
+    display: flex;
+    padding: 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+    width: 30rem;
+    height: 20rem;
+    background-color: blueviolet;
+    color: black;
+    margin-left: -1.98rem;
+    margin-top: -1.98rem;
+    letter-spacing: 1px;
+}
